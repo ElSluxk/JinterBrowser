@@ -1,0 +1,46 @@
+# Documentación del Navegador Jinter con Launcher
+
+El navegador Jinter es un navegador web personalizado construido con PyQt5 y ahora incluye un launcher para facilitar su uso. A continuación se presenta una descripción detallada de sus características y funcionalidades.
+
+## Clases Principales
+
+El navegador consta de dos clases principales:
+
+1. `BrowserWindow`: Esta es la clase principal que representa una ventana de navegador individual.
+2. `TabbedBrowserWindow`: Esta clase representa una ventana de navegador con pestañas que puede contener múltiples instancias de `BrowserWindow`.
+
+## Características del Navegador
+
+### User Agents
+
+El navegador utiliza uno de los tres user agents seleccionados al azar para cada nueva página cargada. Esto puede ser útil para evitar el seguimiento basado en el user agent.
+
+### Soporte para Sitios HTTPS
+
+El navegador está configurado para soportar sitios HTTPS y tiene varias configuraciones habilitadas para mejorar la compatibilidad con diferentes tipos de contenido web.
+
+### Barra de Navegación
+
+La barra de navegación incluye botones para las siguientes acciones:
+
+- Crear una nueva pestaña
+- Cerrar la pestaña actual
+- Navegar hacia atrás
+- Navegar hacia adelante
+- Recargar la página
+- Ir a la página de inicio
+- Mostrar un menú con más opciones (configuraciones)
+
+### Configuraciones
+
+El navegador incluye un diálogo de configuración que permite al usuario habilitar o deshabilitar el bloqueo de anuncios y ver el historial de navegación.
+
+## Ejecución del Navegador con Launcher
+
+Para ejecutar el navegador, simplemente ejecute el archivo launcher. En el inicio escriba `1` y presione enter.
+
+## En Caso De Problemas
+
+En caso de problemas, deberá iniciar el launcher (diseñado para Microsoft Windows (TM)). Escriba `2` y presione enter. Si llega a dar error, verifique que Python esté instalado en su computadora. Si no lo está, diríjase al sitio oficial de Python y instálelo con pip. Si tiene instalado Python y no funciona el navegador ni tampoco la opción de instalar librerías, reinstale Python descargándolo de su página oficial, seleccione instalar pip (Instalación personalizada < Seleccione Pip en la lista de utilidades < Instale Normalmente Python). Luego, vuelva a abrir el launcher, escriba `2`, presione enter, y instale las librerías. En caso de usar Mac, el launcher no podrá servir (ya que es formato .bat (Archivo de lotes de Windows)). Deberá instalar las librerías manualmente, las librerías son pyqt5 y pyqtwebengine. Ahora, inicie el navegador normalmente.
+
+Espero que esta documentación te sea útil para entender mejor cómo funciona tu navegador Jinter con su nuevo launcher. Si tienes alguna pregunta adicional, no dudes en preguntar. ¡Feliz navegación! 🌐
